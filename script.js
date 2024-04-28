@@ -10,14 +10,14 @@ btn.addEventListener("click",()=>{
         istatus.innerHTML= "Friends"
         istatus.style.color= "green"
         btn.innerHTML="Remove Friend"
-        btn.style.padding="15px 6px"            
+        btn.style.padding="10px 10px"            
         flag=1;
     }
     else{
         istatus.innerHTML= "Stranger"
         istatus.style.color= "red"
         btn.innerHTML="Add Friend"
-        btn.style.padding="15px 19px"
+        btn.style.padding="10px 23.5px"
         flag=0;
     }    
 })

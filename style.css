@@ -47,10 +47,50 @@ img{
     color: #fff;
     font-size: 14px;
     font-weight: 700;
-    padding: 15px 19px;
+    padding: 10px 10px;
     border-radius: 5px;
     border: none;               /* border:none krne ke bad button click hote hui nhi dikh rhi h*/
     cursor: pointer;      /*jb button pr ayege to cursor point krte huye dikhai dega*/  
     /*👂vaps se click hote dikhai de rha h, btn ko jb hmne border none diya tha to click hote huye nhi dikhai 
         de rha tha*/   
+}
+
+@media (max-height:600px) {
+    .card{
+        width: 200px;
+        height: 260px;
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 10px;
+        text-align: center;              /*card m jo bhi text likhu gi vo center m aa jayege*/
+    }
+    img{
+        width: 90%;
+        height:55%;
+        object-fit: cover;
+        object-position: bottom;
+        border-radius: 10px;
+    }
+    .card h1{
+        font-size: 25px;
+        font-weight: 790;
+        margin: 5px 0px;
+    }
+    .card h5{
+        font-size: 18px;
+        color: red;
+        margin: 0px 0px 10px 0px;
+    }
+    .card button{
+        background-color: cadetblue;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 10px 10px;
+        border-radius: 5px;
+        border: none;               /* border:none krne ke bad button click hote hui nhi dikh rhi h*/
+        cursor: pointer;      /*jb button pr ayege to cursor point krte huye dikhai dega*/  
+        /*👂vaps se click hote dikhai de rha h, btn ko jb hmne border none diya tha to click hote huye nhi dikhai 
+            de rha tha*/   
+    }
 }
